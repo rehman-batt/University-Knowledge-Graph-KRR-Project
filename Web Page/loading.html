@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Page</title>
+    <style>
+        body {
+            background-image: url("m.png"); 
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            font-family: Arial, sans-serif;
+            color: #000000;
+        }
+        html
+        {
+            height: 100%;
+        }
+        #content {
+            display: none;
+            text-align: center;
+            padding: 50px;
+        }
+
+        #loading {
+            text-align: center;
+            margin-top: 20%;
+            font-size: 20px;
+        }
+
+        #form-container {
+            margin-top: 16%;
+            text-align: center;
+        }
+
+        #input {
+            /* padding: 10px; */
+            /* margin: 10px; */
+            margin-top: -10px;
+            width: 600px;
+            height: 100px;
+            box-sizing: border-box;
+            /* border: 2px solid red; */
+            border-radius: 15px;
+            text-align: start;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            margin-top: 15px;
+            background-color: #13538A;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div id="loading">Loading...</div>
+
+ <div id="form-container">
+    <form action="http://localhost:4444/q" method="get">
+        <h1 style="font-size: 60px; font-family: Georgia, 'Times New Roman', Times, serif;">University</h1>
+        <br>
+        <!-- <input type="text" id="text-input" name="text-input"> -->
+        <textarea id="input" rows="5" cols="80" name="query">
+            
+        </textarea>
+        <br>
+        <button type="submit">mujhe dabao</button>
+    </form>
+</div>
+
+<script>
+    // Simulate a delay of 0.5 seconds
+    document.getElementById('form-container').style.display = 'none';
+
+    setTimeout(function () {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('form-container').style.display = 'block';
+    }, 1000);
+</script>
+
+</body>
+</html>

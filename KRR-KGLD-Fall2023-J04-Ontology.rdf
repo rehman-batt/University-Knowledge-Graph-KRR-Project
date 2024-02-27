@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns="http://www.semanticweb.org/abdul/ontologies/2023/University#"
+   xmlns:aiiso="http://purl.org/vocab/aiiso/schema#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ns1="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-coal-sp-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/coal"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bushraamjad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ismahassan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Associate_Professor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isma Hassan</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ai"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bsds"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry_spring2022"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hiring_fall2023"/>
+    <is_head_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry_fall2022"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_fall2021">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais"/>
+    <tenure_society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2021"/>
+    <president rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/isaam_ansari"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/maheen_shoukat"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aiman_azhar"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/moiz_ahmed"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3917ba1bec9b4388bad7f2bbf781c1aa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#course"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/falakkhan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Maintanance"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falak Khan</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#teaches">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#is_taught_by"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aftabbhatti">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Maintanance"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aftab Bhatti</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#code">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/isaam_ansari">
+    <is_president_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_fall2021"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_fall2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/phdcs">
+    <rdf:type rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOCTOR OF PHILOSOPHY (COMPUTER SCIENCE</rdfs:label>
+    <recognized_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#NAEAC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/maheenarshad">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Assistant_Professor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maheen Arshad</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ds"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/phdcs"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/icpc_fall2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#located_at">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/muhammadshiraz">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Security_Officer"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muhammad Shiraz</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/naveedahmed">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Head_of_Department"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naveed Ahmed</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/se"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bscys"/>
+    <is_head_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec_fall2023"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sea-fdse-sp-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ayeshakamran">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Assistant_Professor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ayesha Kamran</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/cs"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bsai"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/research_fall2021"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bsai">
+    <rdf:type rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BACHELOR OF SCIENCE (ARTIFICIAL INTELLIGENCE)</rdfs:label>
+    <recognized_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#NAEAC"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#krr"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#algo"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#os"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#tbw"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#db"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6a61a781253d47c0b4363845def1970f">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#NAEAC"/>
+    <rdf:rest rdf:nodeID="N5c15bfbe1f8d497d908c1eee89a2556c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#isaam_ansari">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <roll_number>i210299</roll_number>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</foaf:age>
+    <foaf:gender>M</foaf:gender>
+    <foaf:name>Isaam-ul-Haq Ansari</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_spring2023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas"/>
+    <tenure_society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023"/>
+    <president rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aiman_azhar"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/abdulrehman"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sabah_nawab"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/moiz_ahmed"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/mahnoor_mehmood"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/db">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Database Systems</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hamza_ahmed">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamza Ahmed</foaf:name>
+    <roll_number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i210256</roll_number>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</foaf:age>
+    <belongs_to_student rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ds"/>
+    <registered_in rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/-"/>
+    <teacher_assistant rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-fdse-sp-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_fall2022">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas"/>
+    <tenure_society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2022"/>
+    <president rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/moiz_ahmed"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aiman_azhar"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/zarmeen_tauseef"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec_fall2023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec"/>
+    <tenure_committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <head rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/naveedahmed"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/akhtarjamil"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/amnakamran"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bushraamjad"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N082a43a847fc4255898e7a83cbd8fb53">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#officer"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="Nd935120a7d8b4e8ea55784d09a85414f"/>
+    <rdfs:subClassOf rdf:nodeID="N3917ba1bec9b4388bad7f2bbf781c1aa"/>
+    <rdfs:subClassOf rdf:nodeID="Nbda54cadf0194158840b765d3f5298c1"/>
+    <rdfs:subClassOf rdf:nodeID="N30369f49bae1494f8dd753c3f55116c2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sea-fdse-sp-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fundamentalsse"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sea"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/naveedahmed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/moiz_ahmed">
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_spring2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_fall2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_fall2021"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_spring2022"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fcss_fall2023"/>
+    <is_president_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_fall2022"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/uzairkhan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Professor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uzair Khan</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ds"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/phdcs"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry_spring2022"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry_fall2022"/>
+    <is_head_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hiring_fall2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#talha_nadeem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <roll_number>i210313</roll_number>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</foaf:age>
+    <foaf:gender>M</foaf:gender>
+    <foaf:name>Talha Nadeem</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N72e8dfb7d97145ef9e2c4ddaf2d3030d">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society"/>
+    <rdf:rest rdf:nodeID="N0f17de717bb944aa9099d824864fa114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/krr">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knowledge Representation &amp; Reasoning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bscys">
+    <rdf:type rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BACHELOR OF SCIENCE (CYBER SECURITY)</rdfs:label>
+    <recognized_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#NAEAC"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#krr"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#algo"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#os"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#tbw"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#db"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne50a4b2f07284e129d9cd893c30fc353">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#recognized_by"/>
+    <owl:hasValue rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#PEC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#hammad_bakhtiar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <medalist rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#spring2023"/>
+    <roll_number>i210266</roll_number>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</foaf:age>
+    <foaf:gender>M</foaf:gender>
+    <foaf:name>Hammad Bakhtiar</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/zainababaid">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Associate_Professor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zainab Abaid</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ai"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bsds"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec_spring2023"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-fdse-sp-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/amnakamran">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Director"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amna Kamran</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ds"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/phdcs"/>
+    <director rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fastisb"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/research_fall2021"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec_fall2023"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-krr-fa-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aiman_azhar">
+    <is_president_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_spring2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_fall2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_fall2021"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_spring2022"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_fall2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_fall2022"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#director">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Director"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Campus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#course">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/shahzadsaleem">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Acounts"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shahzad Saleem</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/maaz_ali_nadeem">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maaz Ali Nadeem</foaf:name>
+    <roll_number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i200452</roll_number>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</foaf:age>
+    <belongs_to_student rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/cs"/>
+    <registered_in rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-krr-fa-23"/>
+    <lab_demonstrator rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-krr-fa-23"/>
+    <lab_demonstrator rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-tbw-fa-23"/>
+    <teacher_assistant rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-ai-sp-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hiring_fall2023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hiring"/>
+    <tenure_committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <head rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/uzairkhan"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ismahassan"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/irfanullah"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nce8aae92634d4b1380443da8bebae0fc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#academic_session"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/rizwanjaved">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Acounts"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rizwan Javed</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#is_officer_of">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#officer"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#is_president_of">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#president"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#aiman_azhar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <roll_number>i210290</roll_number>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">19</foaf:age>
+    <foaf:gender>F</foaf:gender>
+    <foaf:name>Aiman Azhar</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#head">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#is_head_of"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-krr-fa-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/krr"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/amnakamran"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-ml-fa-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ml"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hassanmujtaba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#bscs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <recognized_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#NAEAC"/>
+    <total_credits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</total_credits>
+    <foaf:label>BACHELOR OF SCIENCE (COMPUTER SCIENCE)</foaf:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#is_mentor_of">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#mentor"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bushraamjad">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Associate_Professor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bushra Amjad</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ds"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/phdcs"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/research_fall2021"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec_fall2023"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-coal-sp-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sabakanwal">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Professor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saba Kanwal</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/se"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bscys"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/research_fall2021"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-tbw-fa-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3cfca30750924fbe8e5c6980fd47563d">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Assistant_Professor"/>
+    <rdf:rest rdf:nodeID="N9e25b03ba1f7434d9192008d78c37dfa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-os-fa-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/os"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ahmeddin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bsds">
+    <rdf:type rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BACHELOR OF SCIENCE (DATA SCIENCE)</rdfs:label>
+    <recognized_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#NAEAC"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#krr"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#algo"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#os"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#tbw"/>
+    <degree_course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#db"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hammad_bakhtiar">
+    <is_president_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_spring2022"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fcss_fall2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_fall2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#PMDC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Accreditation_Body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/khaula_atiq">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khaula Atiq</foaf:name>
+    <roll_number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i200454</roll_number>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</foaf:age>
+    <belongs_to_student rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/se"/>
+    <registered_in rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/-"/>
+    <lab_demonstrator rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-os-fa-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5d992f6ff0e3465e92622d1ff965bd6c">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#mentor"/>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    <owl:onClass rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/se">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Software Engineering Department</rdfs:label>
+    <aiiso:part_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fastisb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hassanmujtaba">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Head_of_Department"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hassan Mujtaba</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ai"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bsds"/>
+    <is_head_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/icpc_fall2023"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-ml-fa-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/csa">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Section"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS-A</rdfs:label>
+    <parent rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6f9a58e4828645fca986a025551db906">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#PMDC"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/artificialintelligence">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial Intelligence	</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb7f95158410f438daac4695ce46ae796">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <rdf:rest rdf:nodeID="N61d9b79475c24caf9bd51066de4b4904"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Not_Recognized_by_PEC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="Nc3bd2c326fa64ee4a85b96ffb81d67c7"/>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Recognized_by_PEC"/>
+    <rdfs:comment xml:lang="en">Compliement of Recognized_by_PEC class</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ahmeddin">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Instructor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ahmed Din</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/se"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bscys"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/icpc_fall2023"/>
+    <is_head_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/research_fall2021"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-os-fa-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#mentor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/khadija_irfan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Khadija Irfan</foaf:name>
+    <roll_number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i200453</roll_number>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</foaf:age>
+    <belongs_to_student rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ai"/>
+    <registered_in rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-algo-fa-23"/>
+    <lab_demonstrator rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-algo-fa-23"/>
+    <lab_demonstrator rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-db-sp-23"/>
+    <teacher_assistant rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sea-fdse-sp-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fahadshahzad">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Academic_Officer"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fahad Shahzad</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://lod.nik.uni-obuda.hu/oloud/oloud#subjectCredit">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N21960f9c1f4b404d882ee5211faaefdb">
+    <rdf:first rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdf:rest rdf:nodeID="N4527daf4cdfa46689dada9217eed344e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/research">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research Committee</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N61d9b79475c24caf9bd51066de4b4904">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Section"/>
+    <rdf:rest rdf:nodeID="Nb1cc7630afec4acf8b7a73f9f002a0e2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/comsats">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/University"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COMSATS</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ml">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Machine Learning</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/usmanhabib">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Lecturer"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usman Habib</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ai"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bsds"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec_spring2023"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-algo-fa-23"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-db-sp-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/csb">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Section"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS-B</rdfs:label>
+    <parent rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/cs"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N87c615761354445291c138a247f13da8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N43bb05e4a0bf4341b1c59f8d23d3f45e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#is_taught_by">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_spring2022">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais"/>
+    <tenure_society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2022"/>
+    <president rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hammad_bakhtiar"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sabah_nawab"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/maheen_shoukat"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aiman_azhar"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/moiz_ahmed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#NTC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Accreditation_Body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Lecturer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#society">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N73ea88ed50894b7792b97cad57267b5e">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Lecturer"/>
+    <rdf:rest rdf:nodeID="N401b0abc0fce4455816609f6af5c18a1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/umairarshad">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Lecturer"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Umair Arshad</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/cs"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bsai"/>
+    <is_head_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec_spring2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/icpc_fall2023"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-ai-sp-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="Nce8aae92634d4b1380443da8bebae0fc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc1e181d32d034fb2b50f17fd9a616f05">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#hod"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc9e75f2656564d23893a36d52cb8db56">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N62317ce4addc4f8ca8dd2e2d0e4bb6b4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:complementOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Recognized_by_PEC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#parent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Section"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/gender">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Person"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/comsatsisb">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Campus"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comsats Islamabad</rdfs:label>
+    <located_at rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islamabad</located_at>
+    <ns1:campus rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/comsats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fcss_fall2023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fcss"/>
+    <tenure_society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <president rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/talha_nadeem"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hammad_bakhtiar"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/moiz_ahmed"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/talha_nadeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-fdse-sp-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fundamentalsse"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/zainababaid"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ds">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Science Department</rdfs:label>
+    <aiiso:part_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fastisb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#medalist">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N30369f49bae1494f8dd753c3f55116c2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#offered_for"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Section"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#PBC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Accreditation_Body"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb7ff36c526974ab2b13a12b6d481630c">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Security_Officer"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fastlhr">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Campus"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast Lahore</rdfs:label>
+    <located_at rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lahore</located_at>
+    <ns1:campus rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/shahidqureshi">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Acounts"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shahid Qureshi</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hiring">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hiring Committee</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N60ddf5b1eb804c31b835de2253261f1f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#head"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Society">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/irfanullah">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Instructor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irfan Ullah</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">56</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/se"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bscys"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry_spring2022"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hiring_fall2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7480b08be8df431fa85d9f509f7ab0d0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#tenure_society"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/muhammad_oun">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muhammad Oun</foaf:name>
+    <roll_number rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i212718</roll_number>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</foaf:age>
+    <belongs_to_student rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ds"/>
+    <registered_in rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/-"/>
+    <teacher_assistant rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-coal-sp-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4aea8e2403b346c78038424011da9d89">
+    <rdf:first rdf:nodeID="N62317ce4addc4f8ca8dd2e2d0e4bb6b4"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#sabah_nawab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <roll_number>i210280</roll_number>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</foaf:age>
+    <foaf:gender>F</foaf:gender>
+    <foaf:name>Sabah Nawab</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#teacher_assistant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#assistant"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-ml-sp-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ml"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hassanraza"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quality Enhancement Cell (QEC)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2a4faf1f332944a8ad4354113fa92c30">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/aiiso/schema#part_of"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Campus"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4dc5a1f26b344935bcc4645ced0bb58b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#director"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Campus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#officer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N96051ec224534b7382718ac3e9ef1050">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#society"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fundamentalsse">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fundamentals of Software Engineering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry_spring2022">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry"/>
+    <tenure_committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2022"/>
+    <head rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/asifnaeem"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/irfanullah"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ismahassan"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/uzairkhan"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N082a43a847fc4255898e7a83cbd8fb53"/>
+    <rdfs:subClassOf rdf:nodeID="N5d992f6ff0e3465e92622d1ff965bd6c"/>
+    <rdfs:subClassOf rdf:nodeID="N0f5a5bdc3af5406c9d2e24c438bec1de"/>
+    <rdfs:subClassOf rdf:nodeID="N96051ec224534b7382718ac3e9ef1050"/>
+    <rdfs:subClassOf rdf:nodeID="N7480b08be8df431fa85d9f509f7ab0d0"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6000acbe6170484e9aca09fda2d02ca2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#medalist"/>
+    <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/icpc_fall2023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/icpc"/>
+    <tenure_committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <head rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hassanmujtaba"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/maheenarshad"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/umairarshad"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hassanraza"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ahmeddin"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0b364a1d5f894d259aa9079133880a29">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Acounts"/>
+    <rdf:rest rdf:nodeID="Nfd4a404cc1bf40eab831aa988eed5f0b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/research_fall2021">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/research"/>
+    <tenure_committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2021"/>
+    <head rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ahmeddin"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/amnakamran"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ayeshakamran"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sabakanwal"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hassanraza"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bushraamjad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_fall2023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas"/>
+    <tenure_society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <president rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/maheen_shoukat"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aiman_azhar"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/abdulrehman"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/mahnoor_mehmood"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/moiz_ahmed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/akhtarjamil">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Lecturer"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Akhtar Jamil</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/cs"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bsai"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec_fall2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#registered_in">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#academic_session">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N50c9533339de4a6f826f4f6722f62ac5">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Academic_Officer"/>
+    <rdf:rest rdf:nodeID="N7c6de3b90040404091fd13da05d6b573"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/giki">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/University"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GIKI</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Academic_Officer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Associate_Professor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry_fall2022">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry"/>
+    <tenure_committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2022"/>
+    <head rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ismahassan"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/uzairkhan"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/asifnaeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#moiz_ahmed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <roll_number>i210294</roll_number>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22</foaf:age>
+    <foaf:gender>M</foaf:gender>
+    <foaf:name>Moiz Ahmed</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc3bd2c326fa64ee4a85b96ffb81d67c7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Ne0d73396771c4fa28ce02f35aab15aed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#is_head_of">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na168a982dc234bb2ab67ce42974b3421">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#committee"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/zarmeen_tauseef">
+    <medalist rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023"/>
+    <is_president_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_fall2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_fall2022"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hassanraza">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Instructor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hassan Raza</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ds"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/phdcs"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec_spring2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/icpc_fall2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/research_fall2021"/>
+    <aiiso:teaches rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-ml-sp-23"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd935120a7d8b4e8ea55784d09a85414f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://purl.org/vocab/aiiso/schema#course_term"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#president">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/shahzadaslam">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Security_Officer"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shahzad Aslam</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0c210982217846f9b8165c86a50099e1">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <rdf:rest rdf:nodeID="Nb7f95158410f438daac4695ce46ae796"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/shireenkhan">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Security_Officer"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shireen Khan</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#spring2023">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+    <academic_session>Spring 2023</academic_session>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/asifnaeem">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Assistant_Professor"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asif Naeem</foaf:name>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</foaf:age>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <belongs_to_faculty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/cs"/>
+    <qualification rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/bsai"/>
+    <is_head_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry_spring2022"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry_fall2022"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#abdulrehman">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <roll_number>i210322</roll_number>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22</foaf:age>
+    <foaf:gender>M</foaf:gender>
+    <foaf:name>Abdul Rehman</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-tbw-fa-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/tbw"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sabakanwal"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7c6de3b90040404091fd13da05d6b573">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Acounts"/>
+    <rdf:rest rdf:nodeID="N475412c08ed24717be2d0be965221774"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3817872f1987496585fbc790fa899ece">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#tenure_committee"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#belongs_to_student">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#belongs_to"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdfs:subClassOf rdf:nodeID="N617ac43ea3ef4328998e59d2b3520ddf"/>
+    <rdfs:subClassOf rdf:nodeID="Na168a982dc234bb2ab67ce42974b3421"/>
+    <rdfs:subClassOf rdf:nodeID="N60ddf5b1eb804c31b835de2253261f1f"/>
+    <rdfs:subClassOf rdf:nodeID="N3817872f1987496585fbc790fa899ece"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0710de3b023f4d219a420bf7aca3ae74">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Associate_Professor"/>
+    <rdf:rest rdf:nodeID="Ned83696f21694aa3aa2f7b94c1b03559"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Student">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#zarmeen_tauseef">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <roll_number>i210212</roll_number>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</foaf:age>
+    <foaf:gender>F</foaf:gender>
+    <foaf:name>Zarmeen Tauseef</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sea">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Section"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SE-A</rdfs:label>
+    <parent rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/se"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2022">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+    <academic_session rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fall 2022</academic_session>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2022">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+    <academic_session rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring 2022</academic_session>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0d9114b9e09a4a708a5b260b07073fd9">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Instructor"/>
+    <rdf:rest rdf:nodeID="Nc9e75f2656564d23893a36d52cb8db56"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#degree_course">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9d9cd043159948ebbf79b7d5052fdbeb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N0d9114b9e09a4a708a5b260b07073fd9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Staff">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N182d56f5039b4ddda7c48885f3ffd9d3"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbda54cadf0194158840b765d3f5298c1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#is_taught_by"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N895240649cd24fb8a5b7ad85579badcf">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Assistant_Professor"/>
+    <rdf:rest rdf:nodeID="N0710de3b023f4d219a420bf7aca3ae74"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#committee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb1cc7630afec4acf8b7a73f9f002a0e2">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+    <rdf:rest rdf:nodeID="N72e8dfb7d97145ef9e2c4ddaf2d3030d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/os">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operating Systems</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9e25b03ba1f7434d9192008d78c37dfa">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Associate_Professor"/>
+    <rdf:rest rdf:nodeID="Ncd60fdff2afd4c2f89bb7f38a44c0cb0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#tenure_society">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#tenure"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Head_of_Department">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Professor"/>
+    <rdfs:subClassOf rdf:nodeID="Nc1e181d32d034fb2b50f17fd9a616f05"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/amirrehman">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Academic_Officer"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amir Rehman</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-algo-fa-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/algo"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/usmanhabib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Assistant_Professor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/coal">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Organization and Assembly Language</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nded6526a9d6c4dcc903bf7ce60eaa03a">
+    <rdf:first rdf:resource="http://dbpedia.org/ontology/Person"/>
+    <rdf:rest rdf:nodeID="N559673e102d44b03b8e80cc36f5a1735"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf161d81a3b4e4dbf96cd5364cfa90395">
+    <rdf:first rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <rdf:rest rdf:nodeID="Nee84291816ac454aae6c8e94fcd899e5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#qualification">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+    <rdfs:range rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N401b0abc0fce4455816609f6af5c18a1">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Professor"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1f62f344fcaa4d308d9bc9e6ff7e7fa8">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Maintanance"/>
+    <rdf:rest rdf:nodeID="Nd0ab89e87b474f339b637695ed9c2557"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#Faculty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N03e1759802d44dfb9ae93a0d8291ab9f"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec_spring2023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/qec"/>
+    <tenure_committee rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023"/>
+    <head rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/umairarshad"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hassanraza"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/usmanhabib"/>
+    <member rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/zainababaid"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N489b07014ad147e68ccd6e0e4a9b0da7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="Nf161d81a3b4e4dbf96cd5364cfa90395"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#mahnoor_mehmood">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <roll_number>i210263</roll_number>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21</foaf:age>
+    <foaf:gender>F</foaf:gender>
+    <foaf:name>Mahnoor Mehmood</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#Course">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3d5691f8d8c040aa90fb27fcedb05067">
+    <rdf:first rdf:nodeID="N6000acbe6170484e9aca09fda2d02ca2"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd839109ce53944d5972699d0ef848cd7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#located_at"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Maintanance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/age">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_fall2023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais"/>
+    <tenure_society rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <president rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/zarmeen_tauseef"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/hammad_bakhtiar"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/isaam_ansari"/>
+    <officer rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aiman_azhar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/haiderali">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Library_Staff"/>
+    <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haider Ali</foaf:name>
+    <foaf:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</foaf:gender>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</foaf:age>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/mahnoor_mehmood">
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_spring2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_fall2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncd60fdff2afd4c2f89bb7f38a44c0cb0">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Instructor"/>
+    <rdf:rest rdf:nodeID="N73ea88ed50894b7792b97cad57267b5e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#PEC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Accreditation_Body"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/name">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nee84291816ac454aae6c8e94fcd899e5">
+    <rdf:first rdf:nodeID="Ne50a4b2f07284e129d9cd893c30fc353"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#course_term">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#campus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Campus"/>
+    <rdfs:range rdf:resource="http://dbpedia.org/ontology/University"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd4a404cc1bf40eab831aa988eed5f0b">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Library_Staff"/>
+    <rdf:rest rdf:nodeID="N1f62f344fcaa4d308d9bc9e6ff7e7fa8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#assistant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#hod">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Head_of_Department"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#is_memeber_of">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#member"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1dd3d8e344474713bcfee00285fc592b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="Nded6526a9d6c4dcc903bf7ce60eaa03a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Library_Staff">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Campus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://dbpedia.org/ontology/University"/>
+    <rdfs:subClassOf rdf:nodeID="Nfbc2058ee5864d27a4cc252615ff6f97"/>
+    <rdfs:subClassOf rdf:nodeID="Nd839109ce53944d5972699d0ef848cd7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbcf602e525b7445bbbda3bbcc9c87591">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Maintanance"/>
+    <rdf:rest rdf:nodeID="Nb7ff36c526974ab2b13a12b6d481630c"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#part_of">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Campus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#tenure_committee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#tenure"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0f5a5bdc3af5406c9d2e24c438bec1de">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#president"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fcss">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast Community Service Society</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Recognized_by_PEC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N489b07014ad147e68ccd6e0e4a9b0da7"/>
+    <rdfs:comment xml:lang="en">Degrees recognized by PEC</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#MS-Instructor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N79283dde9f8e48099d337ab08eba30fa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-db-sp-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/db"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/usmanhabib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#total_credits">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Acounts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ned83696f21694aa3aa2f7b94c1b03559">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Instructor"/>
+    <rdf:rest rdf:nodeID="N9abb2cf121274144a9aa0e5007806db8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/maheen_shoukat">
+    <medalist rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2021"/>
+    <is_president_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_fall2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_fall2021"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_spring2022"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Section">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/talha_nadeem">
+    <medalist rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2022"/>
+    <is_president_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fcss_fall2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fcss_fall2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#maheen_shoukat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <roll_number>i212719</roll_number>
+    <foaf:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</foaf:age>
+    <foaf:gender>F</foaf:gender>
+    <foaf:name>Maheen Shoukat</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#roll_number">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N79283dde9f8e48099d337ab08eba30fa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:intersectionOf rdf:nodeID="N6bb5ef11f98e4d69b86eafb3d713ee53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Accreditation_Body">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N059e3c5696204d5f9651cb8c68f41970"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:comment xml:lang="en">This ontology has been designed to represent and organize knowledge within the domain of higher education.</rdfs:comment>
+    <rdfs:label xml:lang="en">University Ontology</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/Person">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/cs">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computer Science Department </rdfs:label>
+    <aiiso:part_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fastisb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N059e3c5696204d5f9651cb8c68f41970">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:oneOf rdf:nodeID="N6a61a781253d47c0b4363845def1970f"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c15bfbe1f8d497d908c1eee89a2556c">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#NTC"/>
+    <rdf:rest rdf:nodeID="N5e7c704e90794585a8d976348603d9df"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#belongs_to_faculty">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#belongs_to"/>
+    <rdfs:domain rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Professor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0f17de717bb944aa9099d824864fa114">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society_Tenure"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#beee">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <recognized_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#PEC"/>
+    <total_credits rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133</total_credits>
+    <foaf:label>BACHELOR OF  ENGINEERING (ELECTRICAL ENGINEERING)</foaf:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5e7c704e90794585a8d976348603d9df">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#PBC"/>
+    <rdf:rest rdf:nodeID="N4c085ce5f77b4974b92808827441964e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij-ai-sp-23">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <course rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/artificialintelligence"/>
+    <offered_for rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij"/>
+    <aiiso:course_term rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023"/>
+    <is_taught_by rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/umairarshad"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N48ded949af794372a80baa850f379304">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Professor"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aij">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Section"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AI-J</rdfs:label>
+    <parent rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ai"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#NAEAC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Accreditation_Body"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd537a2ff0664ce686652ef79349ee32">
+    <rdf:first rdf:nodeID="N9d9cd043159948ebbf79b7d5052fdbeb"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N559673e102d44b03b8e80cc36f5a1735">
+    <rdf:first rdf:resource="http://dbpedia.org/ontology/University"/>
+    <rdf:rest rdf:nodeID="Ned60bfdcb32548069d64c33b0017a8cc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4527daf4cdfa46689dada9217eed344e">
+    <rdf:first rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+    <rdf:rest rdf:nodeID="N4729b7cfdb35490f9b24ab71b3935cb4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfbc2058ee5864d27a4cc252615ff6f97">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#campus"/>
+    <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    <owl:onClass rdf:resource="http://dbpedia.org/ontology/University"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#lab_demonstrator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#assistant"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Instructor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#offered_for">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Sec_Course"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Section"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N617ac43ea3ef4328998e59d2b3520ddf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#member"/>
+    <owl:someValuesFrom rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/sabah_nawab">
+    <medalist rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_spring2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais_spring2022"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/industry">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Industry Liaison Committee</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/aia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Section"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AI-A</rdfs:label>
+    <parent rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ai"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2021">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+    <academic_session rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fall 2021</academic_session>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Director">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Professor"/>
+    <rdfs:subClassOf rdf:nodeID="N4dc5a1f26b344935bcc4645ced0bb58b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#member">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee_Tenure"/>
+    <rdfs:range rdf:resource="http://purl.org/vocab/aiiso/schema#Faculty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast Adventure Society</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/icpc">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICPC Committee</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#recognized_by">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Accreditation_Body"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2258bc3d9af64cb190b0567e6cdee77a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N50c9533339de4a6f826f4f6722f62ac5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N182d56f5039b4ddda7c48885f3ffd9d3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N1082d2b393644ca392f05d32e3631703"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fastisb">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Campus"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast Islamabad</rdfs:label>
+    <located_at rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islamabad</located_at>
+    <ns1:campus rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fast"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#belongs_to">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Medalist">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="N87c615761354445291c138a247f13da8"/>
+    <rdfs:comment xml:lang="en">Students who have scored a medal.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne0d73396771c4fa28ce02f35aab15aed">
+    <rdf:first rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <rdf:rest rdf:nodeID="N4aea8e2403b346c78038424011da9d89"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N43bb05e4a0bf4341b1c59f8d23d3f45e">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Student"/>
+    <rdf:rest rdf:nodeID="N3d5691f8d8c040aa90fb27fcedb05067"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4c085ce5f77b4974b92808827441964e">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#PEC"/>
+    <rdf:rest rdf:nodeID="N6f9a58e4828645fca986a025551db906"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ned60bfdcb32548069d64c33b0017a8cc">
+    <rdf:first rdf:resource="http://lod.nik.uni-obuda.hu/oloud/oloud#Degree"/>
+    <rdf:rest rdf:nodeID="N21960f9c1f4b404d882ee5211faaefdb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fast">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/University"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAST</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/spring2023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+    <academic_session rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring 2023</academic_session>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fall2023">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Semester"/>
+    <academic_session rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fall 2023</academic_session>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N03e1759802d44dfb9ae93a0d8291ab9f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="N895240649cd24fb8a5b7ad85579badcf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/aiiso/schema#Department">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N2a4faf1f332944a8ad4354113fa92c30"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3133db441e40487493cd981e7a9aa787">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N3cfca30750924fbe8e5c6980fd47563d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/ontology/University">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fais">
+    <rdf:type rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Society"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast Artificial Intelligence Society</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#tenure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4729b7cfdb35490f9b24ab71b3935cb4">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Committee"/>
+    <rdf:rest rdf:nodeID="N0c210982217846f9b8165c86a50099e1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/ai">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Department"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artificial Intelligence Department</rdfs:label>
+    <aiiso:part_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fastisb"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N475412c08ed24717be2d0be965221774">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Library_Staff"/>
+    <rdf:rest rdf:nodeID="Nbcf602e525b7445bbbda3bbcc9c87591"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd0ab89e87b474f339b637695ed9c2557">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Security_Officer"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University#Security_Officer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Staff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/abdulrehman">
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_spring2023"/>
+    <is_member_of rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/fas_fall2023"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6bb5ef11f98e4d69b86eafb3d713ee53">
+    <rdf:first rdf:resource="http://dbpedia.org/ontology/Person"/>
+    <rdf:rest rdf:nodeID="Nbd537a2ff0664ce686652ef79349ee32"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1082d2b393644ca392f05d32e3631703">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Academic_Officer"/>
+    <rdf:rest rdf:nodeID="N0b364a1d5f894d259aa9079133880a29"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9abb2cf121274144a9aa0e5007806db8">
+    <rdf:first rdf:resource="http://www.semanticweb.org/abdul/ontologies/2023/University#Lecturer"/>
+    <rdf:rest rdf:nodeID="N48ded949af794372a80baa850f379304"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/tbw">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technical &amp; Business Writing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/abdul/ontologies/2023/University/Resource/algo">
+    <rdf:type rdf:resource="http://purl.org/vocab/aiiso/schema#Course"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design and Analysis of Algorithms</rdfs:label>
+  </rdf:Description>
+</rdf:RDF>
